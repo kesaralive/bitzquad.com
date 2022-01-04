@@ -3,10 +3,10 @@
   import { page } from "$app/stores";
   import { lang, Path, PathForLanguage } from "$lib/siteUtils";
   import Txt from "./SamplePage-Text";
+import Newsfeed from "$lib/Newsfeed.svelte";
 </script>
 
-<Techstack></Techstack>
-
+<Newsfeed></Newsfeed>
 <br />
 <br />
 
